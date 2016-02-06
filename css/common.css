@@ -1,1 +1,103 @@
 /* Inserta tu codigo que es común para todas las páginas aqui */
+@media all and (max-width: 810px){
+	.row{
+		margin: auto;
+		padding:auto;
+	}
+	.container-fluid div{
+        display: block !important;  /* Cuando el ancho sea inferior a 800px el elemento será un bloque */
+        width: auto !important;
+        text-align: center !important;
+   						}
+   	.container-fluid p{
+   		line-height: 2.1;
+   		text-align: center;
+   	}
+   	.apply-container{
+   		display: block !important;
+        width: auto !important;
+        text-align: center !important;
+   	}
+  	.careersp{
+   	 margin: 10% 0;
+   	 padding: 0 11%;
+   	 line-height: 1.6;
+   	   	}
+   	 .careers, .apply, .contactb{
+   	 	border-radius: 0px !important;
+   	 	text-align: center !important;
+   	 	float: none !important;
+   	 }
+   	 .evolve{
+   		 padding: 5% 0;
+   	 }
+
+ 
+  	.applyb{
+	border-radius: 0px;
+    /* text-align: center; */
+    float: none;
+  	}
+  	.botoncontainer{
+ 		padding: 0 8% !important;
+ 		margin-left: 0 !important;
+  	}
+	.responsivec{
+		padding: 1% 0;
+	}
+
+	/*seccion management*/
+	.primeralinea, .segundalinea, .terceralinea{
+		padding: 0 22% !important;
+	}
+	.foundercont{
+		width: 101% !important;
+	}
+
+}
+@font-face{
+	font-family: Proxima novabold;
+	src: url(..fonts/proximanova-bold-webfont.ttf);
+}
+@font-face{
+	font-family: Proxima nova light;
+	src: url(..fonts/proximanova-light-webfont.ttf);
+}
+@font-face{
+	font-family: Proxima nova regitalic;
+	src: url(..fonts/proximanova-regitalic-webfont.ttf);
+}
+@font-face{
+	font-family: Regular;
+	src: url(..fonts/proximanova-regular-webfont.ttf);	
+}
+@font-face{
+	font-family: Proxima nova semibold;
+	src: url(..fonts/ProximaNova-Semibold.otf);	
+}
+
+header{
+	border-top: 1px solid white;
+	border-bottom: 1px solid grey;
+	padding: 0.3%;
+}
+
+header img{	
+	width: 158px;
+	max-width: 190px;
+	min-width: 130px;
+
+	
+}
+
+.about, .contact{
+    text-decoration: none;
+    padding: 0% 2%;
+    float: right;
+    margin-top: 23px;
+	color: #002366;
+	font-size: 1.2em;
+}
+.about{
+	border-left: 1px solid grey;
+}

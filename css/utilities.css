@@ -1,25 +1,28 @@
 /*Global*/
-*{
-	font-family: "Latolight";
-}
-
-@font-face{
-	font-family: LatoHeavy;
-	src: url(../fonts/LatoHeavy.ttf);
-}
-@font-face{
-	font-family:Latolight ;
-	src: url(../fonts/Latolight.ttf);
-}
-@font-face{
-	font-family: DolceVita;
-	src: url(../fonts/DolceVita.ttf);
-}
-@font-face{
-	font-family: Neoteric-Bold;
-	src: url(../fonts/Neoteric-Bold.ttf);
-}
-
+@font-face {
+    font-family: "proximanova-bold-webfont";
+    src: url(../fonts/proximanova/proximanova-bold-webfont.ttf) format("truetype");
+	}
+	@font-face {
+    font-family: "proximanova-light-webfont";
+    src: url(../fonts/proximanova/proximanova-light-webfont.ttf) format("truetype");
+	}
+	@font-face {
+    font-family: "proximanova-bold-webfont";
+    src: url(../fonts/proximanova/proximanova-bold-webfont.ttf) format("truetype");
+	}
+	@font-face {
+    font-family: "proximanova-regitalic-webfont";
+    src: url(../fonts/proximanova/proximanova-regitalic-webfont.ttf) format("truetype");
+	}
+	@font-face {
+    font-family: "proximanova-regular-webfont";
+    src: url(../fonts/proximanova/proximanova-regular-webfont.ttf) format("truetype");
+	}
+	@font-face {
+    font-family: "ProximaNova-Semibold-webfont";
+    src: url(../fonts/proximanova/ProximaNova-Semibold.ttf) format("truetype");
+	}
 /* Shortcuts */
 
 .pd-0{
