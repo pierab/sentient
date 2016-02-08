@@ -54,6 +54,7 @@
 		width: 101% !important;
 	}
 
+.imgresp { max-width: 100%};
 }
 @font-face{
 	font-family: Proxima novabold;

@@ -38,53 +38,59 @@
 }
 .one{
 
-	padding-bottom: 22%;
+	padding-bottom: 22.7%;;
 }
 .two{
-	padding-bottom: 16%;
+	padding-bottom: 22.6%;
 }
 .title{
 	font-size: 24px;
 	color: #002366;
 }	
 
+/*seccion contactanos*/
+
 .contactanos{
-	text-align: center;
-	background: url("../img/background-contac-us.jpg");
-	padding-bottom: 10%;
-	font-family: "proximanova-light-webfont";
+background: url("../img/background-contac-us.jpg");
+background-position: center;
+    padding: 35px 0 75px;
 }
-.contact{
-font-size: 
-}
-.nombre{
-	background-size: 10% 80%;	
-	width: 50%;
-	height: 15%;
-	
-}
-.mail{
-	background-size: 10% 80%;	
-	width: 50%;
-	height: 15%;
-	margin-bottom: 2%;
+.contactanos h1{
+	    padding: 35px;
 }
 
+.contactanos p{
+	    padding-bottom: 40px;
+}
+input, textarea, .buttonsend{
+	margin: 10px;
+}
+input, textarea{
+	width: 100%;
+	height: 55px;
+	text-align: center;
+	font-size: 24px;
+	font-family: "proximanova-regular-webfont";
+	border:none;
+}
 textarea{
-	
-	width: 50%;
-	height: 15%;
-	background-size: 6% 6%;
-	background-color: white;
-	padding: 5px 5px 5px 25px;
+	overflow-x: hidden;
+    color: rgb(169, 169, 169);
+    padding: 5px 0 0 0;
+    resize: none;
 }
-.placeholder{
-	font-family: "proximanova-regular-webfont";
-	text-align: center; 
+
+.buttonsend{
+    background: #179AD6;
+    color: white;
+    padding: 16px 100px;
+    /* height: 24px; */
+    display: inline-block;
+    border-radius: 5px;
+
 }
- textarea .placeholder{
-	font-family: "proximanova-regular-webfont";
-}
+/*footer*/
+
 footer a {
 	font-family: "proximanova-light-webfont";
 	color: #979797;
