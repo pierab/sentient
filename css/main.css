@@ -1,0 +1,105 @@
+.intro{
+	background: url("../img/hero-image.jpg") ;
+	background-size: cover;
+	font-size: 42px;
+	color: white;
+	text-align: center;
+	margin: auto;
+	font-family: "proximanova-light-webfont";
+	padding: 12% 8.2% 10% 10%;
+	line-height: 1.3;
+}
+.intro img{
+	margin-top: 6%;
+}
+.text{
+	text-align: center;
+	font-family: "proximanova-light-webfont";
+	font-size: 24px;
+	color: #606060;
+	padding: 10% 18%;
+}
+.text2{
+		margin-top: 9%;
+		font-size: 30px;
+		color: #002366;
+		padding: 0% 22%;
+	}
+.carrie{
+	margin-bottom: 5%
+}
+.servicio{
+	font-family: "proximanova-light-webfont";
+	border: #979797 1px solid;
+	width: 100%;
+	text-align: center;
+	padding: 10%;
+	padding-bottom: 12%;
+}
+.one{
+
+	padding-bottom: 22%;
+}
+.two{
+	padding-bottom: 16%;
+}
+.title{
+	font-size: 24px;
+	color: #002366;
+}	
+
+.contactanos{
+	text-align: center;
+	background: url("../img/background-contac-us.jpg");
+	padding-bottom: 10%;
+	font-family: "proximanova-light-webfont";
+}
+.contact{
+font-size: 
+}
+.nombre{
+	background-size: 10% 80%;	
+	width: 50%;
+	height: 15%;
+	
+}
+.mail{
+	background-size: 10% 80%;	
+	width: 50%;
+	height: 15%;
+	margin-bottom: 2%;
+}
+
+textarea{
+	
+	width: 50%;
+	height: 15%;
+	background-size: 6% 6%;
+	background-color: white;
+	padding: 5px 5px 5px 25px;
+}
+.placeholder{
+	font-family: "proximanova-regular-webfont";
+	text-align: center; 
+}
+ textarea .placeholder{
+	font-family: "proximanova-regular-webfont";
+}
+footer a {
+	font-family: "proximanova-light-webfont";
+	color: #979797;
+	text-decoration: none;
+	
+}
+footer{
+	
+   	font-family: "proximanova-light-webfont";
+    text-align: center;
+   margin: auto;
+    color: #979797;
+	line-height: 1;
+
+	}
+footer a{
+	padding: 8% 0;
+}	

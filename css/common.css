@@ -1,4 +1,4 @@
-/* Inserta tu codigo que es común para todas las páginas aqui */
+
 @media all and (max-width: 810px){
 	.row{
 		margin: auto;
@@ -78,7 +78,7 @@
 
 header{
 	border-top: 1px solid white;
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid #979797;
 	padding: 0.3%;
 }
 
@@ -89,6 +89,8 @@ header img{
 
 	
 }
+
+/*nav*/
 
 .about, .contact{
     text-decoration: none;
@@ -101,3 +103,24 @@ header img{
 .about{
 	border-left: 1px solid grey;
 }
+
+/*footer*/
+
+footer a {
+	font-family: "proximanova-light-webfont";
+	color: #979797;
+	text-decoration: none;
+	
+}
+footer{
+	
+   	font-family: "proximanova-light-webfont";
+    text-align: center;
+   margin: auto;
+    color: #979797;
+	line-height: 1;
+
+	}
+footer a{
+	padding: 8% 0;
+}	

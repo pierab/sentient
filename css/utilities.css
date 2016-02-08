@@ -1,4 +1,5 @@
-/*Global*/
+
+
 @font-face {
     font-family: "proximanova-bold-webfont";
     src: url(../fonts/proximanova/proximanova-bold-webfont.ttf) format("truetype");
@@ -17,12 +18,13 @@
 	}
 	@font-face {
     font-family: "proximanova-regular-webfont";
-    src: url(../fonts/proximanova/proximanova-regular-webfont.ttf) format("truetype");
+    src: url(../fonts/proximanova/proximanova-regitalic-webfont.ttf) format("truetype");
 	}
 	@font-face {
     font-family: "ProximaNova-Semibold-webfont";
     src: url(../fonts/proximanova/ProximaNova-Semibold.ttf) format("truetype");
 	}
+
 /* Shortcuts */
 
 .pd-0{
